@@ -1,0 +1,7 @@
+.price-rows { display: grid; gap: 14px; }
+
+.price-row { display: flex; align-items: center; justify-content: space-between; gap: 10px; border-top: 1px solid #dedede; padding-top: 12px; }
+.price-row:first-child { border-top: 0; padding-top: 0; }
+.price-row__label { display: block; font-size: 12px; }
+.price-row__price { display: block; font-family: 'DM Mono', monospace; font-size: 15px; margin-top: 3px; }
+.price-row img { width: 40px; height: 40px; flex: 0 0 auto; }
